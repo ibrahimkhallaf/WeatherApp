@@ -1,0 +1,128 @@
+
+.main {
+    background-color:#1E202B ;
+    width: 100%;
+    height: 100vh;
+}
+/* start navbar  */
+.NavBar {
+    color: white;
+    padding: 50px 0px ;
+}
+.con {
+    padding: 0px 15px ;
+}
+.logo {
+    float: left;
+}
+.logo a {
+    float: left;
+}
+.logodata {
+    float: left;
+    padding-left: 20px;
+}
+.logodata h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+.logo span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+}
+.navul{
+    float: right;
+}
+.navul ul li {
+    display: inline-block;
+    padding: 5px 25px;
+
+}
+
+.navul ul li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+.navul ul li a:hover {
+    color: #009ad8;
+    
+
+}
+.clear-fix {
+    clear: both;
+}
+
+/* start input section  */
+
+.section1 {
+    background-image: url(images/through-the-clouds.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px 30px;
+}
+.section1 .container {
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.inputsec {
+    width: 80%;
+    margin: auto;
+    margin-bottom:50px  ;
+    position: relative;
+}
+.inputsec input {
+    padding: 20px 50px 20px 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    background-color: #1e202b;
+    color: white !important;
+}
+.inputsec input:active {
+    border: 0;
+}
+.inputsec button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0px 40px;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    background-color: #009ad8;
+}
+
+
+.item1 {
+    background-color: rgba(45, 48, 61,0.5);
+}
+.item1 .head,.After_tomorrow-head {
+    background-color: rgba(45, 48, 61,0.3);
+}
+.item1 .today-footer{
+    background-color: rgba(45, 48, 61,0.1) ;
+}
+#today div span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+.item {
+    background-color: rgba(45, 48, 61,0.7);
+}
+.item .tomorrow-head {
+    background-color: rgba(45, 48, 61,0.5);
+}
+
+
